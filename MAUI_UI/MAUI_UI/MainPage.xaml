@@ -35,8 +35,58 @@
             <Entry 
                 Placeholder="Type something here"
                 SemanticProperties.Hint="Lets you type something"
+                TextChanged="Entry_TextChanged"
                    />
             
+            
+            <Label Text="You said:"
+                SemanticProperties.Description="You said:"
+                   />
+
+            <Label 
+                x:Name="EnteredText"
+                SemanticProperties.Description="The text the user entered"
+                BackgroundColor="Gold" 
+                Margin="0,0,0,20"
+                />
+
+            <Stepper 
+                Minimum="0" 
+                Maximum="10" 
+                Increment="1" 
+                ValueChanged="Stepper_ValueChanged"
+                     />
+
+            <Label 
+                Text="The stepper value is:"
+                SemanticProperties.Description="The Stepper value is:"   
+                   />
+
+            <Label 
+                x:Name="StepperValue"
+                SemanticProperties.Description="Stepper Value"
+                BackgroundColor="LightBlue" 
+                Margin="0,0,0,20"
+                />
+
+            <Slider 
+                Minimum="0" 
+                Maximum="1"
+                ValueChanged="Slider_ValueChanged"
+                />
+
+            <Label 
+                Text="The slider value is:"
+                SemanticProperties.Description="The slider value is:"
+                />
+
+            <Label 
+                x:Name="SliderValue"
+                SemanticProperties.Description="Slider value"
+                BackgroundColor="LightBlue" 
+                Margin="0,0,0,20"
+                />
+
         </VerticalStackLayout>
     </ScrollView>
 
