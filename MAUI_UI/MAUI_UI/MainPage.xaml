@@ -47,6 +47,7 @@
                 x:Name="EnteredText"
                 SemanticProperties.Description="The text the user entered"
                 BackgroundColor="Gold" 
+                TextColor="Black"
                 Margin="0,0,0,20"
                 />
 
@@ -66,6 +67,7 @@
                 x:Name="StepperValue"
                 SemanticProperties.Description="Stepper Value"
                 BackgroundColor="LightBlue" 
+                TextColor="Black"
                 Margin="0,0,0,20"
                 />
 
@@ -84,6 +86,7 @@
                 x:Name="SliderValue"
                 SemanticProperties.Description="Slider value"
                 BackgroundColor="LightBlue" 
+                TextColor="Black"
                 Margin="0,0,0,20"
                 />
 
